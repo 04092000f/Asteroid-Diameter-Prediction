@@ -16,5 +16,5 @@
                 <li>pha: Potentially Hazardous Asteroid{Categorical feature with either Yes or No}</li>
                 </ul>
 5. Afterwards, A predicted Dataset in .csv format will be downloaded.
-
+6. Predictions are done based on two performance metrics. They are R Squared(Coeficient Of Determination) and Negative Mean Absolute Error(nmae)
 ### Important Note: You should have xgboost module version 1.5.2 and scikit-learn version 1.0.2 installed in your Flask Virtual environment 
