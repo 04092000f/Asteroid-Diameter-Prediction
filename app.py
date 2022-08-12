@@ -109,7 +109,6 @@ def transform_view():
     x['pha']=x_pha_encode.values
     ypred = model1.predict(x)
     a=pd.DataFrame()
-    a['Actual Diameter']=df['diameter']
     a['Predicted Diameter with R Squared']=ypred
     ypred = model2.predict(x)
     a['Actual Diameter']=df['diameter']
