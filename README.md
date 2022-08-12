@@ -16,3 +16,5 @@
                 <li>pha: Potentially Hazardous Asteroid{Categorical feature with either Yes or No}</li>
                 </ul>
 5. Afterwards, A predicted Dataset in .csv format will be downloaded.
+
+### Prerequisites: You should have xgboost module version 1.5.2 installed in your Flask Virtual environment 
