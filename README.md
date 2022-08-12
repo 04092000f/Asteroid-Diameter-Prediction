@@ -17,4 +17,4 @@
                 </ul>
 5. Afterwards, A predicted Dataset in .csv format will be downloaded.
 
-### Prerequisites: You should have xgboost module version 1.5.2 installed in your Flask Virtual environment 
+### Prerequisites: You should have xgboost module version 1.5.2 and scikit-learn version 1.0.2 installed in your Flask Virtual environment 
