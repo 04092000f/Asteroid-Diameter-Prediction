@@ -15,3 +15,4 @@
                 <li>neo: Near Earth Object{Categorical feature with either Yes or No}</li>
                 <li>pha: Potentially Hazardous Asteroid{Categorical feature with either Yes or No}</li>
                 </ul>
+5. Afterwards, A predicted Dataset in .csv format will be downloaded.
