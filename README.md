@@ -4,7 +4,7 @@
 2. Open the Flask App.
 3. Upload the Asteroid Sample Dataset in a .csv format
 4. Note that the Asteroid dataset should have atleast the following attributes.
-<ul>
+              <ul>
                 <li>H: Absolute Magnitude Parameter{float value}</li>
                 <li>n_obs_used: No of Radar Observations used{integer value}</li>
                 <li>data_arc: Observation Arc in days{float value}</li>
