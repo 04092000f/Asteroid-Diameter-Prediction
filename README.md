@@ -1,20 +1,5 @@
-# Flask-Asteroid-Prediction
+# Asteroid-Diameter-Prediction
 
-1. Run the app.py using Flask Framework.
-2. Open the Flask App.
-3. Upload the Asteroid Sample Dataset in a .csv format
-4. Note that the Asteroid dataset should have atleast the following attributes.
-              <ul>
-                <li>H: Absolute Magnitude Parameter{float value}</li>
-                <li>n_obs_used: No of Radar Observations used{integer value}</li>
-                <li>data_arc: Observation Arc in days{float value}</li>
-                <li>albedo: Geometric Albedo{float value}</li>
-                <li>a: Semi major Axis{float value}</li>
-                <li>q: Perihelion Distance{float value}</li>
-                <li>moid: Minimum Earth Orbit Intersection Distance{float value}</li>
-                <li>neo: Near Earth Object{Categorical feature with either Yes or No}</li>
-                <li>pha: Potentially Hazardous Asteroid{Categorical feature with either Yes or No}</li>
-                </ul>
-5. Afterwards, A predicted Dataset in .csv format will be downloaded.
-6. Predictions are done based on two performance metrics. They are R Squared(Coeficient Of Determination) and Negative Mean Absolute Error(nmae)
-### Important Note: You should have xgboost module version 1.5.2 and scikit-learn version 1.0.2 installed in your Flask Virtual environment 
+* Self Case Study on predicting Asteroid Diameter.
+* Builded an XGBoost Model for predicting Asteroid Diameter.
+* Download Random Forest Model for predicting data_arc : https://drive.google.com/file/d/15d0e5LupRPGhtx1r1Gu0PzuY6RrFE_zx/view?usp=sharing.
